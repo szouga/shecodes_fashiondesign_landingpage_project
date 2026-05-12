@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fashion Design ~ My Hobby</title>
+    <style>
+      body {
+        background: tan;
+      }
+      h1 {
+        text-align: center;
+      }
+      h2 {
+        text-align: center;
+      }
+      img {
+        max-width: 100%;
+      }
+      .testing {
+        display: block;
+        margin: 0 auto;
+        border: 1px thin;
+        background: white;
+        color: white;
+        font-family:
+          "Didot", "Bodoni MT", "Libre Didot", "Noto Serif Display", serif;
+        font-size: 20px;
+        border-radius: 6px;
+        padding: 10px 15px;
+        transition: all 600ms ease-in-out;
+      }
+      .testing:hover {
+        background: tan;
+        color: black;
+        transform: scale(1.4, 1.2);
+        font-family:
+          "Didot", "Bodoni MT", "Libre Didot", "Noto Serif Display", serif;
+      }
+      .container {
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 20px;
+        border-radius: 10px;
+        border: 10px groove;
+        border-image: linear-gradient(to right, #2c2c2c, tan 50%) 1;
+        font-family: "EB Garamond", serif;
+        color: #2c2c2c; /* Muted, dark tones for the academia style */
+        background-color: #f4f1ea; /* Parchment-like background */
+        transition: all 0.3s ease;
+      }
+      footer {
+        text-align: center;
+        margin: 10px 0;
+        font-size: 18px;
+        transition: all 0.3s ease;
+      }
+      .theme-button {
+        display: block;
+        margin: 0 auto;
+        font-size: 12px;
+        background: black;
+        color: white;
+        padding: 5px 8px;
+      }
+      .theme-button:hover {
+        background: #2c2c2c;
+        color: white;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 1px;
+      }
+      .grid img {
+        border-radius: 18px;
+      }
+      .change-theme {
+        background: linear-gradient(to right, #2c2c2c 50%, tan);
+      }
+      .change-theme .container {
+        border: 10px groove; /*required for gradient*/
+        border-image: linear-gradient(to right, tan 50%, #2c2c2c) 1;
+        border-image-slice: 1; /*ensures gradient fills border */
+        transition: all 0.3s ease;
+      }
+      .change-theme footer {
+        background: white;
+        display: block;
+        margin: 10px 90px 20px;
+        padding: 10px 4px 20px;
+        border-radius: 4px;
+      }
+      .change-theme footer a {
+        color: tan;
+      }
+      .change-theme .theme-button {
+        background: white;
+        color: black;
+      }
+      .change-theme .theme-button:hover {
+        background: tan;
+        color: white;
+      }
+    </style>
+    <button class="theme-button">Dark Theme</button>
+    <!--^switches the color theme-->
+  </head>
+  <body>
+    <!--Build a landing page about your hobby: Fashion Design -->
+    <div class="container">
+      <h1>Fashion Idea:</h1>
+      <h2><em>Academia Core</em></h2>
+      <div class="grid">
+        <a href="https://www.shopcider.com/" target="_blank">
+          <img
+            class="cider-black-top"
+            src="https://img1.shopcider.com/product/1698765172000-twm7Bm.jpg?x-oss-process=image/resize,w_1050,m_lfit/quality,Q_80/interlace,1"
+            alt="Lace High Neck Lace Long Sleeve Top"
+            height="250"
+          />
+        </a>
+
+        <a href="https://www.shopcider.com/" target="_blank">
+          <img
+            class="cider-polo-top"
+            src="https://img1.shopcider.com/product/1751273748000-YHy7Dt.jpg?x-oss-process=image/resize,w_1050,m_lfit/quality,Q_80/interlace,1"
+            alt="Polo Collar Texture Button Up Shirt"
+            height="250"
+          />
+        </a>
+        <a href="https://www.shopcider.com/" target="_blank">
+          <img
+            class="cider-skirt"
+            src="https://img1.shopcider.com/product/1760327807000-xpDDSN.jpg?x-oss-process=image/resize,w_1050,m_lfit/quality,Q_80/interlace,1"
+            alt="Wool-look Houndstooth Mid Rise Pleated Mini Skirt"
+            height="250"
+          />
+        </a>
+        <a href="https://www.shopcider.com/" target="_blank">
+          <img
+            class="cider-belt"
+            src="https://img1.shopcider.com/product/1744274732000-KmGP4Q.jpg?x-oss-process=image/resize,w_1050,m_lfit/quality,Q_80/interlace,1"
+            alt="Classic Buckle Belt"
+            height="250"
+          />
+        </a>
+        <a href="https://www.shopcider.com/" target="_blank">
+          <img
+            class="cider-socks"
+            src="https://img1.shopcider.com/product/1760083140000-f3Q5yw.jpg?x-oss-process=image/resize,w_1050,m_lfit/quality,Q_80/interlace,1"
+            alt="3 PAIRS PLAID CRIMPED SOCKS SET"
+            height="250"
+          />
+        </a>
+        <a href="https://www.shopcider.com/" target="_blank">
+          <img
+            class="cider-shoes"
+            src="https://img1.shopcider.com/product/1725256672000-zSR5NA.jpg?x-oss-process=image/resize,w_1050,m_lfit/quality,Q_80/interlace,1"
+            alt="Platform Polished Loafers"
+            height="250"
+          />
+        </a>
+        <a href="https://www.shopcider.com/" target="_blank">
+          <img
+            class="cider-heart-bracelet"
+            src="https://img1.shopcider.com/product/1758878938000-eQmh5p.jpg?x-oss-process=image/resize,w_1050,m_lfit/quality,Q_80/interlace,1"
+            alt="Double Layered Heart Chain Bracelet"
+            height="250"
+          />
+        </a>
+        <a href="https://www.shopcider.com/" target="_blank">
+          <img
+            class="snake-design-bracelet"
+            src="https://img1.shopcider.com/product/1760168915000-wHr5Xs.jpg?x-oss-process=image/resize,w_1050,m_lfit/quality,Q_80/interlace,1"
+            alt="Snake Design Bracelet"
+            height="250"
+          />
+        </a>
+        <a href="https://www.shopcider.com/" target="_blank">
+          <img
+            class="snake-hand-bracelet"
+            src="https://img1.shopcider.com/product/1760015470000-32a4m7.jpg?x-oss-process=image/resize,w_1050,m_lfit/quality,Q_80/interlace,1"
+            alt="RHINESTONE DECOR HAND CHAIN BRACELET"
+            height="250"
+          />
+        </a>
+      </div>
+      <p><em>*wear layers from top left to bottom right</em></p>
+      <button class="testing">Fashion is passion</button>
+    </div>
+    <footer>
+      <small
+        ><em
+          >Coded by
+          <a
+            href="https://github.com/szouga"
+            target="_blank"
+            style="color: brown"
+            >Sophie Clement Zouga Ndong</a
+          ></em
+        ></small
+      >
+    </footer>
+    <script>
+      let themeButton = document.querySelector(".theme-button");
+      let body = document.querySelector("body");
+      let footer = document.querySelector("footer");
+      let changeThemeContainer = document.querySelector(".container");
+      function changeTheme() {
+        body.classList.toggle("change-theme");
+
+        if (body.classList.contains("change-theme")) {
+          themeButton.innerHTML = `Light Theme`;
+        } else {
+          themeButton.innerHTML = `Dark Theme`;
+        }
+      }
+      themeButton.addEventListener("click", changeTheme);
+    </script>
+  </body>
+</html>
